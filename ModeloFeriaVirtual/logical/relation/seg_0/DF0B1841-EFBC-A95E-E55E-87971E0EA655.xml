@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="asegurar" directorySegmentName="seg_0" id="DF0B1841-EFBC-A95E-E55E-87971E0EA655">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 16:26:32 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<sourcePk>E1862B49-AE5E-3142-87BA-2E2D8606BF82</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>puede asegurar</nameOnSource>
+<nameOnTarget>debe ser asegurado por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B5624362-EB38-9AE9-D254-219C597DDC5A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7DA35E0E-35FA-BA91-5535-78C6FBD4A88D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

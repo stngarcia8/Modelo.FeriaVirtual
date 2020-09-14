@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contratarv2" directorySegmentName="seg_0" id="AD489FD7-7735-3992-1A4D-9C3F71FF90FF">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 17:02:35 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<sourcePk>EFF56A2D-071B-6DD1-8B88-73CA1C186488</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>debe contratar</nameOnSource>
+<nameOnTarget>debe contratar</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7DA35E0E-35FA-BA91-5535-78C6FBD4A88D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>550F2094-69F1-514C-0A6A-9F3559EB89F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
