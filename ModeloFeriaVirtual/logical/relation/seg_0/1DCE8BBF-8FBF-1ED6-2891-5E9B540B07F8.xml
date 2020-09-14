@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="asegurar" directorySegmentName="seg_0" id="DF0B1841-EFBC-A95E-E55E-87971E0EA655">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="indicar" directorySegmentName="seg_0" id="1DCE8BBF-8FBF-1ED6-2891-5E9B540B07F8">
 <createdBy>asathor</createdBy>
-<createdTime>2020-09-14 16:26:32 UTC</createdTime>
+<createdTime>2020-09-14 19:17:35 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
 <engineerTo>
 <item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
 </engineerTo>
-<sourcePk>E1862B49-AE5E-3142-87BA-2E2D8606BF82</sourcePk>
+<sourcePk>F4F45D64-C8E2-6A39-EC47-E8FBA38F0924</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>puede asegurar</nameOnSource>
-<nameOnTarget>debe ser asegurado por</nameOnTarget>
+<nameOnSource>debe indicar el</nameOnSource>
+<nameOnTarget>debe ser indicado el</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>B5624362-EB38-9AE9-D254-219C597DDC5A</sourceEntity>
+<sourceEntity>7EF8CAC7-6B86-A9EB-DD3B-CFEBB11DB801</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>7DA35E0E-35FA-BA91-5535-78C6FBD4A88D</targetEntity>
+<targetEntity>6D5BB16E-B66A-CC6D-6275-A8582502F79A</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

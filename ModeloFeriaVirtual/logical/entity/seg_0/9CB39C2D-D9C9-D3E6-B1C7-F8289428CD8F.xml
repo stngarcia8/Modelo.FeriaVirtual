@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DA35E0E-35FA-BA91-5535-78C6FBD4A88D" name="contrato">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CB39C2D-D9C9-D3E6-B1C7-F8289428CD8F" name="producto">
 <createdBy>asathor</createdBy>
-<createdTime>2020-09-14 16:16:41 UTC</createdTime>
+<createdTime>2020-09-14 18:59:10 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
 <engineerTo>
 <item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_contrato" id="6E4EA460-9728-1F21-B7AC-D7B54E123260">
+<Attribute name="id_producto" id="56BC38D7-0604-EDED-8DDC-52EFF383F2DD">
 <createdBy>asathor</createdBy>
-<createdTime>2020-09-14 16:16:56 UTC</createdTime>
+<createdTime>2020-09-14 18:59:28 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
 <engineerTo>
 <item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
@@ -28,47 +28,22 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="inicio_contrato" id="C9A04E46-831D-87FB-266A-1DA9560D2B1A">
+<Attribute name="nombre_producto" id="5544F60C-8144-C1C8-E784-AEE3FC402145">
 <createdBy>asathor</createdBy>
-<createdTime>2020-09-14 16:17:33 UTC</createdTime>
+<createdTime>2020-09-14 19:00:15 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
 <engineerTo>
 <item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="termino_contrato" id="E0B37FD2-2B05-AF20-DDC5-420D1474184B">
+<Attribute name="obs_producto" id="8AC53055-480C-0956-999D-E3591ED2F26B">
 <createdBy>asathor</createdBy>
-<createdTime>2020-09-14 16:18:07 UTC</createdTime>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="esta_vigente" id="6C284409-A1C7-D6B3-6AD9-B67BCD647ACD">
-<createdBy>asathor</createdBy>
-<createdTime>2020-09-14 17:17:27 UTC</createdTime>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,1,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="desc_contrato" id="1B816313-495B-7CC9-ED8E-F2387D7622A0">
-<createdBy>asathor</createdBy>
-<createdTime>2020-09-14 16:19:22 UTC</createdTime>
+<createdTime>2020-09-14 19:01:11 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
 <engineerTo>
 <item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
@@ -80,9 +55,9 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="comision_contrato" id="CB9A65AB-9D06-52B1-46F9-037C2920DF78">
+<Attribute name="valor_producto" id="3716CC48-8FA1-4423-FF83-F39F06A914D8">
 <createdBy>asathor</createdBy>
-<createdTime>2020-09-14 17:21:47 UTC</createdTime>
+<createdTime>2020-09-14 19:01:34 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
 <engineerTo>
 <item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
@@ -93,18 +68,47 @@
 <dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cantidad_producto" id="0BD07EFB-946B-6F26-2365-AC59D138C4BB">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 19:02:09 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="42AE403D-6BB5-0E5C-1F41-05E48C7680C3">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 19:05:14 UTC</createdTime>
+<generatorID>FDB9DA0B-5EDC-539D-DE2A-BDA7F4C6BFDF</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EFF56A2D-071B-6DD1-8B88-73CA1C186488" name="contrato PK">
+<identifier id="D6901E07-7D72-5ADE-04E7-8BEFB51E5509" name="producto PK">
 <createdBy>asathor</createdBy>
-<createdTime>2020-09-14 16:17:20 UTC</createdTime>
+<createdTime>2020-09-14 19:09:38 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
 <engineerTo>
 <item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6E4EA460-9728-1F21-B7AC-D7B54E123260</attributeRef>
+<attributeRef>56BC38D7-0604-EDED-8DDC-52EFF383F2DD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

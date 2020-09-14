@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contratar" directorySegmentName="seg_0" id="A58AED68-32CF-E080-936B-CF253947A28E">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="registrarv1" directorySegmentName="seg_0" id="FDB9DA0B-5EDC-539D-DE2A-BDA7F4C6BFDF">
 <createdBy>asathor</createdBy>
-<createdTime>2020-09-14 17:01:50 UTC</createdTime>
+<createdTime>2020-09-14 19:05:14 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
 <engineerTo>
 <item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
 </engineerTo>
 <sourcePk>63288739-A472-9C87-9539-62A2F17B9BA7</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>debe contratar</nameOnSource>
-<nameOnTarget>debe estar contratado</nameOnTarget>
+<nameOnSource>puede registrar</nameOnSource>
+<nameOnTarget>debe estar registrado por</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>DBF0D624-64CE-04B7-2215-4DA8811AA9E6</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
-<targetEntity>550F2094-69F1-514C-0A6A-9F3559EB89F5</targetEntity>
+<sourceEntity>1FD582DF-60CF-B2A4-AB6E-B0758EF1EAEC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9CB39C2D-D9C9-D3E6-B1C7-F8289428CD8F</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
