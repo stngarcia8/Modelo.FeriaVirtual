@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contener" directorySegmentName="seg_0" id="EED195AE-DBDC-4CEA-6628-B002985B7AB2">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 14:46:05 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<sourcePk>63288739-A472-9C87-9539-62A2F17B9BA7</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>puede contener</nameOnSource>
+<nameOnTarget>debe ser contenido por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DBF0D624-64CE-04B7-2215-4DA8811AA9E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EF7B57AB-4472-A795-4D92-68EAF0928C6D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

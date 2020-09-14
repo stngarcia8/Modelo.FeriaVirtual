@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloFeriaVirtual" id="6AD3BF40-DBE0-7952-5DA3-D37182FE07B6" version="3.5">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 11:16:29 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6AD3BF40-DBE0-7952-5DA3-D37182FE07B6</designId>
+</OSDM_Design>

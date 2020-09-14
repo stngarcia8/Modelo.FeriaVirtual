@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="0949E15E-3B18-CA94-19BE-5D34FC3841B3">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 11:16:29 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

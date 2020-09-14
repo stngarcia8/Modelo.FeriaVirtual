@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B4348DC-AAD9-3963-A5FD-FFF13A1B0FF0" name="direccion">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 13:33:02 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_direccion" id="8D70B9AC-5603-CD29-BBD2-9A301D0A6BF1">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 13:33:17 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_direccion" id="46C66D0C-3065-1785-27E5-0B742ABBCE3A">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 13:34:03 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_ciudad" id="3FB4081A-5655-129F-5A05-8977071B092F">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 13:36:19 UTC</createdTime>
+<generatorID>0EE1C8A0-A75D-6FB5-885B-56A82EEA31F0</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>AC028008-1B75-70FD-036B-BA1B754260B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="666DAC60-AAE5-6C3A-F042-E6E340C6B3BF">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 13:39:00 UTC</createdTime>
+<generatorID>F1CE012C-68F6-67AF-D432-6DE5E4CDBAF8</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_residencia" id="AF8E2895-BBC6-DAE2-EF27-7FB83C9137E9">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 13:49:24 UTC</createdTime>
+<generatorID>872409CC-BEB6-A30F-541D-84B253D7677F</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>2E07F506-05DB-22F8-0DF4-7699C16FDE00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="480DF4D2-C5E1-D6ED-F0A0-6DDB8E5093AC" name="direccion PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 13:33:59 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D70B9AC-5603-CD29-BBD2-9A301D0A6BF1</attributeRef>
+<attributeRef>666DAC60-AAE5-6C3A-F042-E6E340C6B3BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

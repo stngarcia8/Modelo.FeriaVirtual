@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="registrar" directorySegmentName="seg_0" id="88763CA2-7AD1-903A-FA0F-9EC6E888BE72">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 13:21:01 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<sourcePk>C20A841C-689C-CBA3-4669-B95607FFEDCA</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>debe registrar a</nameOnSource>
+<nameOnTarget>debe ser registrado por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6C70A24-AB2F-F4E6-00F9-DD5B4FA0D3D3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DBF0D624-64CE-04B7-2215-4DA8811AA9E6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
