@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ubicar" directorySegmentName="seg_0" id="0EE1C8A0-A75D-6FB5-885B-56A82EEA31F0">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ubicar" directorySegmentName="seg_0" id="14751272-B4E8-A562-90F2-E8F3B0164B90">
 <createdBy>asathor</createdBy>
-<createdTime>2020-09-14 13:18:17 UTC</createdTime>
+<createdTime>2020-09-14 16:02:32 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
 <engineerTo>
 <item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
@@ -9,13 +9,13 @@
 <sourcePk>5144DC0F-6EA6-E2D6-EFD8-D63C55C8DC98</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>puede ubicar una</nameOnSource>
-<nameOnTarget>debe ser ubicada en</nameOnTarget>
+<nameOnTarget>debe estar ubicada en una</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>ADB8FB96-0741-D901-6BD6-5244799091E1</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>2B4348DC-AAD9-3963-A5FD-FFF13A1B0FF0</targetEntity>
+<targetEntity>EF7B57AB-4472-A795-4D92-68EAF0928C6D</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -95,6 +95,19 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="dir_comercial" id="18E14CE2-6908-249F-83A4-2F7DFCAF0E89">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 16:01:17 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id_cliente" id="23358EE8-A3C4-515A-5374-5D7352C4DBD8">
 <createdBy>asathor</createdBy>
 <createdTime>2020-09-14 14:46:05 UTC</createdTime>
@@ -108,6 +121,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_ciudad" id="64283F15-A383-CA65-90B5-B8F963C456D5">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 16:02:32 UTC</createdTime>
+<generatorID>14751272-B4E8-A562-90F2-E8F3B0164B90</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>AC028008-1B75-70FD-036B-BA1B754260B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

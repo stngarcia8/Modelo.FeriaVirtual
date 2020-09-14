@@ -24,9 +24,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
-<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_rol" id="3E66BEB5-EA42-BD28-87D7-C65B5B40A862">
 <createdBy>asathor</createdBy>
@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="username" id="FF9A80F2-C7F3-D5B7-19EE-CADBFB6F11BA">
 <createdBy>asathor</createdBy>

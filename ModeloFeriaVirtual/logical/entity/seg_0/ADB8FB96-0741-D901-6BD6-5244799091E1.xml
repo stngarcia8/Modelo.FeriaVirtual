@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre_ciudad" id="11216A2C-8106-F4FB-4644-836EBF287945">
 <createdBy>asathor</createdBy>

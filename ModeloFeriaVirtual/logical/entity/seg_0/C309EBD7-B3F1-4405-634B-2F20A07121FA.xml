@@ -24,9 +24,24 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
-<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comercial" id="2045A062-8CDB-D6E3-E395-E45B42894B8F">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 16:03:35 UTC</createdTime>
+<generatorID>757616AE-4E6D-7FC3-3F3E-37B33B800D39</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>2F5C85BC-CA0D-8733-BF2F-A13356CA2D82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="num_telefono" id="1B4701DC-A9AB-CA8D-78C6-E0E588109CA6">
 <createdBy>asathor</createdBy>
@@ -41,21 +56,6 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_cliente" id="0D43067A-3E58-D97B-BC28-CCFBDF04A021">
-<createdBy>asathor</createdBy>
-<createdTime>2020-09-14 13:44:55 UTC</createdTime>
-<generatorID>D45CE49C-039E-13AB-1EF9-FFAE99A8A1A0</generatorID>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="1304C322-2E53-B8BD-9EE8-409359A8CE8F" name="telefono PK">
@@ -67,7 +67,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0D43067A-3E58-D97B-BC28-CCFBDF04A021</attributeRef>
+<attributeRef>BAEEBF58-90A2-3F74-A4E6-FA6EE4498299</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

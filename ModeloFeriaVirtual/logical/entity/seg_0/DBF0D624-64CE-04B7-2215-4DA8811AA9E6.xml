@@ -92,8 +92,9 @@
 <referedAttribute>15C7DC85-BAFE-2B2A-A778-3EB79FC93D94</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypePrecision>9</dataTypePrecision>
+<dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_rol" id="63187B78-7F97-15EC-FF76-0648F88C974E">
