@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6971C53F-0018-49C1-6680-3EBDF09D333F" name="contrato_cliente">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>550F2094-69F1-514C-0A6A-9F3559EB89F5</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="06BF29C0-6F44-FA7B-2213-90C3C76377D8">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>4E2EF1B7-B7CB-BE2A-5659-37F8BE451BF5</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_contrato" id="9D3C9DE2-6038-22D5-CA34-00E47105D381">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>CD938ABE-F631-13C3-C9A5-F76A7E2F6054</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF26C09E-E967-FD22-8716-98EC7204846F" referredColumn="53097F6C-7701-52AD-0E9D-1D18B9FD0B4F"/>
+</associations>
+</Column>
+<Column name="id_cliente" id="300E4E77-99A7-BB04-E5C9-45473FED06EE">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>49C8B983-FA25-277A-2151-4B7BEB4ED8F7</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F611499-4163-7912-B1FE-37513FBDBB0D" referredColumn="1F11CEE5-4ACB-79EB-1748-AC48EF1E8DDE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="047EF61E-8CEE-51E9-2139-ECDCF081BA8A" name="contrato_cliente_PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>15CC100E-5424-C936-FFB3-62844623D0A1</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06BF29C0-6F44-FA7B-2213-90C3C76377D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="549F7743-D427-1E8B-8570-815214239A00" name="contrato_cliente__IDX">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AD489FD7-7735-3992-1A4D-9C3F71FF90FF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9D3C9DE2-6038-22D5-CA34-00E47105D381"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E388604-781B-839A-3CD9-6D487DC75DBF" name="contrato_cliente_contrato_FK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>AD489FD7-7735-3992-1A4D-9C3F71FF90FF</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D3C9DE2-6038-22D5-CA34-00E47105D381"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D672E60-74CC-55F7-5B30-4FA18CD41D9C" name="contrato_cliente_cliente_FK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>84532355-9D4E-7CE2-B532-BC71CAC6FC9A</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="300E4E77-99A7-BB04-E5C9-45473FED06EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_pedido" id="DDB0115D-C9CF-372A-8BF4-A929517DE4F7">
 <createdBy>matia</createdBy>

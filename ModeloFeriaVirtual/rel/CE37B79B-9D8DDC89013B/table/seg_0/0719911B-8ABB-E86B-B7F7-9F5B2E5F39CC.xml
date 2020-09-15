@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0719911B-8ABB-E86B-B7F7-9F5B2E5F39CC" name="seguro">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>B5624362-EB38-9AE9-D254-219C597DDC5A</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_seguro" id="F75DE57F-7ABF-2799-F5C0-8C2847CB245C">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>9E7BB977-E4CD-6316-109F-231C3B9C6700</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_seguro" id="FD60D316-3489-5922-7F0E-B491CC3F62C7">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>76995AB3-3CEB-3FAB-66D7-175C5F3FE8A4</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="compania_seguro" id="3AE074E5-32E7-E3C5-8291-E7AE0A957780">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>45069ACC-6754-0CC0-730F-864585EA692F</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A66C7382-76AC-45EA-D058-1D05D9C293EE" name="seguro_PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>E1862B49-AE5E-3142-87BA-2E2D8606BF82</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F75DE57F-7ABF-2799-F5C0-8C2847CB245C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

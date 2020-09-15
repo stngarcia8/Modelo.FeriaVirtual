@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34FDEA6E-86B1-94B8-3394-029D52A93908" name="tipo_transporte">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>7EF8CAC7-6B86-A9EB-DD3B-CFEBB11DB801</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_transporte" id="9846AD4D-E0FD-FF93-DC15-242B80DE640D">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>847C77A1-2A98-3A29-E06A-4BD9ED2C71AF</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_tipo_transporte" id="D0517D60-D319-0629-4C8C-EF633FF6F328">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>D940B53D-1B6E-D8F7-87DA-828FB3F74480</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75F7A513-4D30-541A-47DC-6F1528D1B3DA" name="tipo_transporte_PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>F4F45D64-C8E2-6A39-EC47-E8FBA38F0924</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9846AD4D-E0FD-FF93-DC15-242B80DE640D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

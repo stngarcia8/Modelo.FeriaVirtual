@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contienev3" directorySegmentName="seg_0" id="6AE7D2EF-FA04-91B9-AEC4-BE51DD5EA591">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="registrarv3" directorySegmentName="seg_0" id="6AE7D2EF-FA04-91B9-AEC4-BE51DD5EA591">
 <createdBy>matia</createdBy>
 <createdTime>2020-09-14 23:48:53 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>D6901E07-7D72-5ADE-04E7-8BEFB51E5509</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>puede estar registrado en</nameOnSource>
+<nameOnTarget>debe estar registrado</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

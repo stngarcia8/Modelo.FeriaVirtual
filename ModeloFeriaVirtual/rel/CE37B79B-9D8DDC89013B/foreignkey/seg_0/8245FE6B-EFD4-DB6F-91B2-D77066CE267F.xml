@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8245FE6B-EFD4-DB6F-91B2-D77066CE267F" containerWithKeyObject="91FAD091-726D-879A-33BC-717C004AC657" localFKIndex="966D89A0-0232-6D42-5749-7E869DA3041E" name="vehiculo_tipo_transporte_FK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>1DCE8BBF-8FBF-1ED6-2891-5E9B540B07F8</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<referredTableLongName>tipo_transporte</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>34FDEA6E-86B1-94B8-3394-029D52A93908</referredTableID>
+<keyObject>75F7A513-4D30-541A-47DC-6F1528D1B3DA</keyObject>
+<referredKeyID>75F7A513-4D30-541A-47DC-6F1528D1B3DA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_transporte</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81FE47FE-898E-B66A-F294-3F764D802279" name="empleado">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>99077ABC-AA3D-BC12-BAAE-0FA35768DBA6</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="1E596CB2-0F71-53CC-ACD5-FEA901B157BA">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>1F90C9F8-842F-7B5A-CC73-98B2B427F0D6</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="BA810B51-9FC0-AC18-5224-3499C6043621">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>8A8AC549-6F6F-C583-5C43-F56E34FDC056</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92FF02B2-5622-6E9F-F1D7-92AAF745619C" referredColumn="BC061645-E19A-F65B-1B78-8F65A477B68E"/>
+</associations>
+</Column>
+<Column name="id_rol" id="64C352A7-25BC-C9BC-80F1-71D2F3030287">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>93E99837-93AB-5696-C299-6CB94353C34A</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E215A8D-7D5B-EF1D-B8AC-F03F56ABB13A" referredColumn="CB464E8E-B59A-B19D-437E-46EF2B33D58B"/>
+</associations>
+</Column>
+<Column name="nombre_empleado" id="41360C2C-DC73-D83B-1EE5-662543C20127">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>815E5B06-DE3C-BE23-B6CE-18AD87F1B6D2</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_empleado" id="C367EF81-0D48-C0C1-C9F8-9B12F896E04F">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>A06C73AB-8129-A934-73F8-55DF0D292DCC</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3C94F23-7F57-56FA-00AA-FEA5D67A52A6" name="empleado_PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>F81414C5-B11C-D67C-D36A-7BA728445DF4</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E596CB2-0F71-53CC-ACD5-FEA901B157BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02EC64ED-73F5-6DE1-726D-5F669CC053B3" name="empleado_usuario_FK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>5B0BD299-D5A3-DF80-3451-8AAA3BE0CF6C</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA810B51-9FC0-AC18-5224-3499C6043621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15AB9330-45D1-2C9B-3DE2-2E91F9611366" name="empleado_rol_usuario_FK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 12:44:05 UTC</createdTime>
+<generatorID>4295C488-B908-06A1-8188-D46E1EEB048D</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64C352A7-25BC-C9BC-80F1-71D2F3030287"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
