@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23D46608-1A9E-82E4-D368-3C9781E374A8" name="rol_usuario">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>2932C809-3D36-BB94-BF0B-B699B7CC14B5</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rol" id="A809A67E-2C8A-08F8-7ADC-AC12D6D23037">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>6D6697E9-52F1-20C0-6414-ABC92761B718</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_rol" id="8B3BF0D8-0809-CE34-6078-7FD3EDE068EB">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>49104E0E-A5A4-2646-0D28-C1C9DAE15ACE</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95A30EEA-14E5-7603-DD2B-75DDA4C91A35" name="rol_usuario_PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>72667C65-7F3D-F800-BC82-460C3C294AC1</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A809A67E-2C8A-08F8-7ADC-AC12D6D23037"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

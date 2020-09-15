@@ -28,6 +28,21 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_cliente" id="758CC193-8F88-FE30-4FF4-97120A4E8DBE">
+<createdBy>matia</createdBy>
+<createdTime>2020-09-15 00:28:19 UTC</createdTime>
+<generatorID>94526622-511B-7029-3C5E-749A5752EC1E</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="fecha_pedido" id="DDB0115D-C9CF-372A-8BF4-A929517DE4F7">
 <createdBy>matia</createdBy>
 <createdTime>2020-09-15 00:25:05 UTC</createdTime>
@@ -52,21 +67,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_cliente" id="758CC193-8F88-FE30-4FF4-97120A4E8DBE">
-<createdBy>matia</createdBy>
-<createdTime>2020-09-15 00:28:19 UTC</createdTime>
-<generatorID>94526622-511B-7029-3C5E-749A5752EC1E</generatorID>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

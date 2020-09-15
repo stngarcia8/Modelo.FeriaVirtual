@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="971A0B8B-81E0-B504-32E9-6D1A77F6DEBA" name="usuario">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>F6C70A24-AB2F-F4E6-00F9-DD5B4FA0D3D3</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="EACEF779-2299-2E7C-255C-C6DAB4A33E9D">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>15C7DC85-BAFE-2B2A-A778-3EB79FC93D94</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="4E1E072D-8DF9-0BD9-5EF5-4D5666FB68E4">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>FF9A80F2-C7F3-D5B7-19EE-CADBFB6F11BA</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="0697826C-75CF-DD55-DEC8-F34EE3407341">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>AC966FE3-980D-5A21-BC3A-6574F4BC4B18</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="AF9E5371-0961-D515-8BFC-FA50E7176D4A">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>45E842B8-D044-B0B0-13D2-0D446AB9AF78</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_active" id="5C28AED1-1A53-8D30-61FC-69208211E847">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>A7D07B52-7A92-BD8E-D090-9BB27825CB5E</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="registro" id="54E7F64A-4BCC-491F-716B-BF4B0EDB44E7">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>1EA3DC6F-CF8E-EDE4-677B-7957F3CF1E24</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD7E63CC-6F4F-AE96-2736-6A4579215185" name="usuario_PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>C20A841C-689C-CBA3-4669-B95607FFEDCA</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EACEF779-2299-2E7C-255C-C6DAB4A33E9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

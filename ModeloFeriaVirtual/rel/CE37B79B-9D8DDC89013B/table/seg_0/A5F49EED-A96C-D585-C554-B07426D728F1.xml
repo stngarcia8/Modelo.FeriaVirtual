@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5F49EED-A96C-D585-C554-B07426D728F1" name="ciudad">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>ADB8FB96-0741-D901-6BD6-5244799091E1</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_ciudad" id="A2F1F79B-94EE-D430-8267-7108250F368B">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>AC028008-1B75-70FD-036B-BA1B754260B9</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_pais" id="16E032B0-126F-3B9E-C00E-DF2AE3F68283">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>44EED8EC-FBF6-D1B6-2769-D4F7BD5390A4</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50AA182B-4E00-C354-FD7F-5B4A0E99D48A" referredColumn="813FD810-B7E9-6B1E-C9B8-9238BE453FB7"/>
+</associations>
+</Column>
+<Column name="nombre_ciudad" id="74848645-C626-F948-430A-D3EF07808209">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>11216A2C-8106-F4FB-4644-836EBF287945</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BF55CD0-76B2-D10A-C080-9E671AB0058A" name="ciudad_PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>5144DC0F-6EA6-E2D6-EFD8-D63C55C8DC98</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2F1F79B-94EE-D430-8267-7108250F368B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E5CBBB9-6568-463A-B2AC-AD42F2DFE758" name="ciudad_pais_FK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>A08F86B2-8754-85E5-2448-6C323E06B0E2</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16E032B0-126F-3B9E-C00E-DF2AE3F68283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

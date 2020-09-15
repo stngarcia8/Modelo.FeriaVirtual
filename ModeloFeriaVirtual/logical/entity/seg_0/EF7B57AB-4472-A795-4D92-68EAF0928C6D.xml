@@ -28,6 +28,36 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_cliente" id="23358EE8-A3C4-515A-5374-5D7352C4DBD8">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 14:46:05 UTC</createdTime>
+<generatorID>EED195AE-DBDC-4CEA-6628-B002985B7AB2</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_ciudad" id="64283F15-A383-CA65-90B5-B8F963C456D5">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 16:02:32 UTC</createdTime>
+<generatorID>14751272-B4E8-A562-90F2-E8F3B0164B90</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>AC028008-1B75-70FD-036B-BA1B754260B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="rsocial_comercial" id="72FB05C4-2754-C466-7A7A-C1CB7E030192">
 <createdBy>asathor</createdBy>
 <createdTime>2020-09-14 14:34:43 UTC</createdTime>
@@ -107,36 +137,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_cliente" id="23358EE8-A3C4-515A-5374-5D7352C4DBD8">
-<createdBy>asathor</createdBy>
-<createdTime>2020-09-14 14:46:05 UTC</createdTime>
-<generatorID>EED195AE-DBDC-4CEA-6628-B002985B7AB2</generatorID>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="codigo_ciudad" id="64283F15-A383-CA65-90B5-B8F963C456D5">
-<createdBy>asathor</createdBy>
-<createdTime>2020-09-14 16:02:32 UTC</createdTime>
-<generatorID>14751272-B4E8-A562-90F2-E8F3B0164B90</generatorID>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<referedAttribute>AC028008-1B75-70FD-036B-BA1B754260B9</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

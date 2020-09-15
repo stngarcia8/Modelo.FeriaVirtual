@@ -28,21 +28,6 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_rol" id="3E66BEB5-EA42-BD28-87D7-C65B5B40A862">
-<createdBy>asathor</createdBy>
-<createdTime>2020-09-14 12:02:08 UTC</createdTime>
-<generatorID>B98A9494-E6C4-A1A6-E480-A407E4C8F8D2</generatorID>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<referedAttribute>6D6697E9-52F1-20C0-6414-ABC92761B718</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="username" id="FF9A80F2-C7F3-D5B7-19EE-CADBFB6F11BA">
 <createdBy>asathor</createdBy>
 <createdTime>2020-09-14 11:49:56 UTC</createdTime>

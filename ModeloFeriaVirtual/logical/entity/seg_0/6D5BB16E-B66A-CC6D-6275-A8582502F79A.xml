@@ -28,6 +28,21 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_tipo_transporte" id="736CE4EB-DE91-5458-A6F4-A0F72F96728E">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-14 19:17:35 UTC</createdTime>
+<generatorID>1DCE8BBF-8FBF-1ED6-2891-5E9B540B07F8</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>847C77A1-2A98-3A29-E06A-4BD9ED2C71AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="modelo_vehiculo" id="7F71B517-6EA1-6BA5-A854-DE6EB60C0208">
 <createdBy>asathor</createdBy>
 <createdTime>2020-09-14 19:13:42 UTC</createdTime>
@@ -54,21 +69,6 @@
 <dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,9,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_tipo_transporte" id="736CE4EB-DE91-5458-A6F4-A0F72F96728E">
-<createdBy>asathor</createdBy>
-<createdTime>2020-09-14 19:17:35 UTC</createdTime>
-<generatorID>1DCE8BBF-8FBF-1ED6-2891-5E9B540B07F8</generatorID>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<referedAttribute>847C77A1-2A98-3A29-E06A-4BD9ED2C71AF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

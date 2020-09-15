@@ -43,6 +43,36 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_seguro" id="B2316AB6-4D0B-BAF3-6F34-69CE7522D4DD">
+<createdBy>matia</createdBy>
+<createdTime>2020-09-15 00:35:27 UTC</createdTime>
+<generatorID>36E2B0C0-4404-29EF-F494-069614284BB6</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>9E7BB977-E4CD-6316-109F-231C3B9C6700</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="E5D5EE7F-1B42-0988-A432-4F1CAB62D7ED">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:30:47 UTC</createdTime>
+<generatorID>147FEAC9-BE97-28AF-21DF-F3B811622F2E</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="estado_envio" id="CCA952DE-EB15-52EC-60B4-FD24E2638E4A">
 <createdBy>matia</createdBy>
 <createdTime>2020-09-15 00:32:33 UTC</createdTime>
@@ -93,21 +123,6 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_seguro" id="B2316AB6-4D0B-BAF3-6F34-69CE7522D4DD">
-<createdBy>matia</createdBy>
-<createdTime>2020-09-15 00:35:27 UTC</createdTime>
-<generatorID>36E2B0C0-4404-29EF-F494-069614284BB6</generatorID>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<referedAttribute>9E7BB977-E4CD-6316-109F-231C3B9C6700</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="costo_envio" id="193F2B5E-6CBE-399B-DEEC-C3E006F05353">
 <createdBy>matia</createdBy>
 <createdTime>2020-09-15 01:05:33 UTC</createdTime>
@@ -121,21 +136,6 @@
 <dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,9,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_cliente" id="E5D5EE7F-1B42-0988-A432-4F1CAB62D7ED">
-<createdBy>asathor</createdBy>
-<createdTime>2020-09-15 02:30:47 UTC</createdTime>
-<generatorID>147FEAC9-BE97-28AF-21DF-F3B811622F2E</generatorID>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="costo_seguro" id="AAB225E0-1278-0EAA-AE33-D4A9DAEB000B">
 <createdBy>asathor</createdBy>

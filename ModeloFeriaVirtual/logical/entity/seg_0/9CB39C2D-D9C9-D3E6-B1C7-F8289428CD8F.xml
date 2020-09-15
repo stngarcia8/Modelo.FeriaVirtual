@@ -28,6 +28,21 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_cliente" id="3AE46D09-A976-1083-E374-D148E848716B">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:28:26 UTC</createdTime>
+<generatorID>2E4C64A7-F855-E537-6164-A88F6339DB66</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="nombre_producto" id="5544F60C-8144-C1C8-E784-AEE3FC402145">
 <createdBy>asathor</createdBy>
 <createdTime>2020-09-14 19:00:15 UTC</createdTime>
@@ -81,21 +96,6 @@
 <dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,9,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_cliente" id="3AE46D09-A976-1083-E374-D148E848716B">
-<createdBy>asathor</createdBy>
-<createdTime>2020-09-15 02:28:26 UTC</createdTime>
-<generatorID>2E4C64A7-F855-E537-6164-A88F6339DB66</generatorID>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

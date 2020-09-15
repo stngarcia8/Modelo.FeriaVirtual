@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF54D290-CF30-D168-253F-DECD0B52449E" name="dato_comercial">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>EF7B57AB-4472-A795-4D92-68EAF0928C6D</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comercial" id="EA5BA212-29A1-6AE3-47C1-2BEC458436C9">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>2F5C85BC-CA0D-8733-BF2F-A13356CA2D82</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="86ADB4E6-D67E-E13A-4757-1D1CD7327B85">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>23358EE8-A3C4-515A-5374-5D7352C4DBD8</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BAC26B8-9DE3-09C4-C752-624E946C470D" referredColumn="A286ADB0-D1F7-4075-6715-6FA2F76A5CDC"/>
+</associations>
+</Column>
+<Column name="codigo_ciudad" id="6176C168-6F60-8254-92C0-97E683016E9F">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>64283F15-A383-CA65-90B5-B8F963C456D5</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="121A3A12-C568-99CA-05E9-048A6D0AA3B8" referredColumn="A2F1F79B-94EE-D430-8267-7108250F368B"/>
+</associations>
+</Column>
+<Column name="rsocial_comercial" id="B0EA4819-E107-9F7D-5B1F-BFE7B2F37CE0">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>72FB05C4-2754-C466-7A7A-C1CB7E030192</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fantasia_comercial" id="9BA299C5-E013-033D-2146-E90346E24044">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>55FB5676-03FA-1BA5-D333-4982D4173852</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="giro_comercial" id="29B062F7-8FB3-1E36-AD78-7EE94CD81E8C">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>C4279C21-6E3A-ADA9-3AB8-0DD19B405B3E</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_comercial" id="4412343D-43BD-207E-7B1E-EB60776B3D7E">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>AF8425AC-B08D-1B61-2113-83E1FF6ADC77</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254</dataTypeSize>
+<ownDataTypeParameters>254,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dni_comercial" id="6187F434-EF1A-7755-1D5C-E57C559B5227">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>80AEF8F8-5B56-9639-4DB7-CA9518D88298</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dir_comercial" id="DF5E0352-62AD-D28F-E92F-CC81D1C03A22">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>18E14CE2-6908-249F-83A4-2F7DFCAF0E89</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30F3674D-FB2B-18B3-6842-1BE36AAF7E1B" name="dato_comercial_PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>69644E6D-F924-4691-9A68-52FC3646D422</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA5BA212-29A1-6AE3-47C1-2BEC458436C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8A4A1C7-023B-85CA-BB14-783467E597B1" name="dato_comercial_cliente_FK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>EED195AE-DBDC-4CEA-6628-B002985B7AB2</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86ADB4E6-D67E-E13A-4757-1D1CD7327B85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28EFB62A-B210-0EDB-C235-FE66F3C39F12" name="dato_comercial_ciudad_FK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>14751272-B4E8-A562-90F2-E8F3B0164B90</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6176C168-6F60-8254-92C0-97E683016E9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

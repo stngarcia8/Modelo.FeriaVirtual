@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="121A3A12-C568-99CA-05E9-048A6D0AA3B8" containerWithKeyObject="EF54D290-CF30-D168-253F-DECD0B52449E" localFKIndex="28EFB62A-B210-0EDB-C235-FE66F3C39F12" name="dato_comercial_ciudad_FK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 10:53:39 UTC</createdTime>
+<generatorID>14751272-B4E8-A562-90F2-E8F3B0164B90</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<referredTableLongName>ciudad</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5F49EED-A96C-D585-C554-B07426D728F1</referredTableID>
+<keyObject>9BF55CD0-76B2-D10A-C080-9E671AB0058A</keyObject>
+<referredKeyID>9BF55CD0-76B2-D10A-C080-9E671AB0058A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_ciudad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
