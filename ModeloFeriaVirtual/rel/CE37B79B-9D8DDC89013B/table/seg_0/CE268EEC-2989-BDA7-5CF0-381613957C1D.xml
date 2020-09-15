@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE268EEC-2989-BDA7-5CF0-381613957C1D" name="Metodo_pago">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>34A4DB9F-F711-9C58-7C4C-19C9BA97789C</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_metpago" id="1796148B-490D-704D-C6EB-7E15155C545F">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>1629F566-AF54-1CC3-B708-7CA8170CC5DB</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_metpago" id="0FAC455F-023F-5943-D0F1-88FE9D05B1A0">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>460CF67B-5833-F4EE-0F6B-DE2309AB0F95</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="051CA10F-B7F7-183C-7CA3-E532202237B3" name="Metodo_pago_PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>1CAE8CA7-45E3-D3E1-3D86-D4218F39D9F3</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1796148B-490D-704D-C6EB-7E15155C545F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76494DD8-42D9-47EB-A2FA-AAAA8DB36CF6" name="vehiculo">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>6D5BB16E-B66A-CC6D-6275-A8582502F79A</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vehiculo" id="C317AD4C-B7C1-255E-0198-6477028E3FF6">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>BF96EE76-1464-1B2C-7D58-BB30095C0AD6</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo_vehiculo" id="FF858C07-3E64-38C1-3D51-FA330F1B47F0">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>7F71B517-6EA1-6BA5-A854-DE6EB60C0208</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad_vehiculo" id="EA153211-7637-3B99-48D2-01ECA7241AA2">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>E6685AA9-5418-1FA8-1A25-1AED3C1D6456</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipo_transporte" id="37EE4C59-ED64-3FA4-4A58-794F2CFCA1DD">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>736CE4EB-DE91-5458-A6F4-A0F72F96728E</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF8C26F6-56B4-7FA5-F4E9-019A9016E614" referredColumn="ADFE8765-9C2E-A9C7-5E3B-EF52C12AB920"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECE1F289-36B9-281F-182A-A38E62A19122" name="vehiculo_PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>743FC607-8038-6817-AA72-6FA455A8084C</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C317AD4C-B7C1-255E-0198-6477028E3FF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40DEBA29-437F-7C26-0CFA-BD6A5D9139CF" name="vehiculo_tipo_transporte_FK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>1DCE8BBF-8FBF-1ED6-2891-5E9B540B07F8</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37EE4C59-ED64-3FA4-4A58-794F2CFCA1DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>63288739-A472-9C87-9539-62A2F17B9BA7</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>puede realizar un</nameOnSource>
+<nameOnTarget>debe ser realizado por un</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="747B6C39-B4A2-2882-FA54-7B31C1EE4135" name="telefono">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>C309EBD7-B3F1-4405-634B-2F20A07121FA</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_telefono" id="54DD623F-5D3A-FD00-B84E-5DDD8ADC8216">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>BAEEBF58-90A2-3F74-A4E6-FA6EE4498299</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_comercial" id="7335BDCD-CA5A-AC23-2920-B7D29E3F8C37">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>2045A062-8CDB-D6E3-E395-E45B42894B8F</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BF5A260-8277-E4B3-9A63-F581B5B98D6E" referredColumn="719B7620-003B-0BA6-F338-07580609E074"/>
+</associations>
+</Column>
+<Column name="num_telefono" id="0E56B92A-55C5-20D0-CCB8-59DB0BD65A04">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>1B4701DC-A9AB-CA8D-78C6-E0E588109CA6</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76F74C7A-E533-18DC-CF94-FC2A844E1BBB" name="telefono_PK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>1304C322-2E53-B8BD-9EE8-409359A8CE8F</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54DD623F-5D3A-FD00-B84E-5DDD8ADC8216"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A887442-1D3F-9071-E3B8-FAFE8DD2AE37" name="telefono_dato_comercial_FK">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:42:57 UTC</createdTime>
+<generatorID>757616AE-4E6D-7FC3-3F3E-37B33B800D39</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7335BDCD-CA5A-AC23-2920-B7D29E3F8C37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

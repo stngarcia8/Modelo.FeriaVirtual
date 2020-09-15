@@ -82,10 +82,10 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,9,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_cliente" id="42AE403D-6BB5-0E5C-1F41-05E48C7680C3">
+<Attribute name="id_cliente" id="3AE46D09-A976-1083-E374-D148E848716B">
 <createdBy>asathor</createdBy>
-<createdTime>2020-09-14 19:05:14 UTC</createdTime>
-<generatorID>FDB9DA0B-5EDC-539D-DE2A-BDA7F4C6BFDF</generatorID>
+<createdTime>2020-09-15 02:28:26 UTC</createdTime>
+<generatorID>2E4C64A7-F855-E537-6164-A88F6339DB66</generatorID>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
 <engineerTo>
 <item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
@@ -95,7 +95,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

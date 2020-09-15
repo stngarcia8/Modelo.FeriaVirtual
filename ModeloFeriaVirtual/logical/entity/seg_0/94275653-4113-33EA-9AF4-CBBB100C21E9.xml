@@ -43,21 +43,6 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_cliente" id="A4F5C9CB-13BE-2E14-E049-F4C99D66E0BD">
-<createdBy>matia</createdBy>
-<createdTime>2020-09-15 00:31:47 UTC</createdTime>
-<generatorID>2118DEF1-1E69-D4F3-0D90-CDC194D64F3D</generatorID>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="estado_envio" id="CCA952DE-EB15-52EC-60B4-FD24E2638E4A">
 <createdBy>matia</createdBy>
 <createdTime>2020-09-15 00:32:33 UTC</createdTime>
@@ -126,6 +111,35 @@
 <Attribute name="costo_envio" id="193F2B5E-6CBE-399B-DEEC-C3E006F05353">
 <createdBy>matia</createdBy>
 <createdTime>2020-09-15 01:05:33 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="E5D5EE7F-1B42-0988-A432-4F1CAB62D7ED">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:30:47 UTC</createdTime>
+<generatorID>147FEAC9-BE97-28AF-21DF-F3B811622F2E</generatorID>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_seguro" id="AAB225E0-1278-0EAA-AE33-D4A9DAEB000B">
+<createdBy>asathor</createdBy>
+<createdTime>2020-09-15 02:39:34 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
 <engineerTo>
 <item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>

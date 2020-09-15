@@ -70,21 +70,6 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_cliente" id="46C3B4BD-3AD4-A0D0-98DA-79B6BAA56FC3">
-<createdBy>asathor</createdBy>
-<createdTime>2020-09-14 19:18:46 UTC</createdTime>
-<generatorID>D95F540D-20C4-AC2E-380E-33A991732108</generatorID>
-<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
-<engineerTo>
-<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
-</engineerTo>
-<referedAttribute>EB576E0C-20C6-AF1C-5B12-0235155A8291</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="743FC607-8038-6817-AA72-6FA455A8084C" name="vehiculo PK">
