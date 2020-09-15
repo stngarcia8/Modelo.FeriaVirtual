@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Encarga" directorySegmentName="seg_0" id="C8D32380-A8C0-8A6C-2809-606E948A5556">
+<createdBy>matia</createdBy>
+<createdTime>2020-09-14 23:48:24 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<sourcePk>63288739-A472-9C87-9539-62A2F17B9BA7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2B8CABDE-9179-303E-5852-3981A55A0AD7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3DB2DCD3-B86D-72EC-C94B-D56672BFF5C1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Solicita" directorySegmentName="seg_0" id="309CBFFE-EF99-A162-58B1-BBBDE269F10D">
+<createdBy>matia</createdBy>
+<createdTime>2020-09-14 23:46:57 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<sourcePk>737C3427-A638-3935-68CA-7CA22909AE43</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3DB2DCD3-B86D-72EC-C94B-D56672BFF5C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8B944662-C965-2284-AE69-0EAB74DC77C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
