@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Metodo_pago" directorySegmentName="seg_0" id="AEB93283-D266-0A63-BDE8-03D773558C29">
+<createdBy>matia</createdBy>
+<createdTime>2020-09-15 01:13:12 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<sourcePk>1CAE8CA7-45E3-D3E1-3D86-D4218F39D9F3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>34A4DB9F-F711-9C58-7C4C-19C9BA97789C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>71E29791-E6B5-CCF4-0E30-D1F44192D8B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

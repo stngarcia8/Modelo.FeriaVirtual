@@ -95,7 +95,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="observacion" id="DB3E9F7F-66CC-7856-D641-A9987B21DAA0">
+<Attribute name="obs_envio" id="DB3E9F7F-66CC-7856-D641-A9987B21DAA0">
 <createdBy>matia</createdBy>
 <createdTime>2020-09-15 00:35:01 UTC</createdTime>
 <ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
@@ -122,6 +122,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_envio" id="193F2B5E-6CBE-399B-DEEC-C3E006F05353">
+<createdBy>matia</createdBy>
+<createdTime>2020-09-15 01:05:33 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
