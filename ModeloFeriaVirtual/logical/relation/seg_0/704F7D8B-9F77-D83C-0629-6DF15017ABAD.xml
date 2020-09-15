@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="enviar" directorySegmentName="seg_0" id="704F7D8B-9F77-D83C-0629-6DF15017ABAD">
+<createdBy>matia</createdBy>
+<createdTime>2020-09-15 00:31:30 UTC</createdTime>
+<ownerDesignName>ModeloFeriaVirtual</ownerDesignName>
+<engineerTo>
+<item key="CE37B79B-1BD9-B5B5-9AA0-9D8DDC89013B" value="true"/>
+</engineerTo>
+<sourcePk>737C3427-A638-3935-68CA-7CA22909AE43</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3DB2DCD3-B86D-72EC-C94B-D56672BFF5C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94275653-4113-33EA-9AF4-CBBB100C21E9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
